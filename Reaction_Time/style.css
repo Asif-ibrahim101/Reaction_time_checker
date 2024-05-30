@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.header{
+    padding: 1.5rem 2rem 0 2rem;
+    text-align: center;
+}
+
+.logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.main-body{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.reaction{
+    color: blue;
+}
+
+.head-text{
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.msg{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: gray;
+    font-weight: 500;
+}
+
+.btn{
+    margin: 3rem 0 0 0;
+}
+
+#startButton{
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.sideNote{
+    font-size: small;
+    color: gray;
+}
+
+#result{
+    padding-top: 3rem;
+}
+
+#message{
+    font-size: 5rem;
+    font-weight: 800;
+    color: blue;
+}
+
